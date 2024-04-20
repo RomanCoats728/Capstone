@@ -1,7 +1,7 @@
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { useState } from "react";
 import { Context } from "../api/index";
-import Register from "./Login/Register";
+import Register from "./Login/Register.jsx";
 import Login from "./Login/Login";
 import Products from "./Products/AllProducts";
 import SingleProducts from "./Products/SingleProduct";

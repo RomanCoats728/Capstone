@@ -98,7 +98,8 @@ export default function Register() {
   };
 
   return (
-    <>
+    <div className="center-container"> 
+      <div className="center-content">
       {success ? (
         <section>
           <h1>Success!</h1>
@@ -233,6 +234,7 @@ export default function Register() {
           </p>
         </section>
       )}
-    </>
+    </div>
+    </div>
   );
 }

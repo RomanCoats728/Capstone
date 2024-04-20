@@ -48,7 +48,9 @@ const Login = ({ token, setToken }) => {
   };
 
   return (
-    <>
+    <div className="center-wrapper">
+
+    <div className="center-containerLogin">
       <h2 className="Welcome">Welcome To The Super Store...</h2>
 
       <section>
@@ -96,7 +98,8 @@ const Login = ({ token, setToken }) => {
           </span>
         </p>
       </section>
-    </>
+    </div>
+    </div>
   );
 };
 

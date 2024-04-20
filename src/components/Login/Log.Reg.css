@@ -4,18 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  margin-top: 250px;
-  font-family: "Nunito", sans-serif;
-  font-size: 22px;
-  color: black;
-}
-
-body {
-  min-height: 100vh;
-  background-color: rgb(234, 238, 242);
-}
-
 section {
   border-radius: 5px;
   margin: auto;
@@ -28,14 +16,26 @@ section {
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.4);
 }
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.center-containerLogin {
+  margin-top: -500px;
+  margin-left: 400px;
+}
 
 form {
+  margin: 0 auto;
+  text-align: center;
+  margin-left: -3000px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   flex-grow: 1;
   padding-bottom: 1rem;
-  
 }
 
 a,
@@ -114,7 +114,6 @@ button {
   font-weight: bold !important;
   font-family: "Anonymous Pro", monospace !important;
   letter-spacing: 7px !important;
-  margin-left: 25%;
   top: -100px;
   font-size: 60px;
   overflow: hidden;
@@ -144,4 +143,8 @@ button {
 .Browser {
   margin-left: 60%;
   color: red;
+}
+.center-container {
+  margin-top: -420px;
+  margin-left: 730px;
 }
