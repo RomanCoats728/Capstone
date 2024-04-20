@@ -1,10 +1,10 @@
-/* body {
+body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 600px;
   min-height: 150vh;
-} */
+}
 input[type="text"],
 select {
   padding: 12px 20px;
