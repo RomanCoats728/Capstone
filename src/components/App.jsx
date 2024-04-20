@@ -6,7 +6,7 @@ import Login from "./Login/Login";
 import Products from "./Products/AllProducts";
 import SingleProducts from "./Products/SingleProduct";
 import { AboutUs } from "./AboutUs.jsx/AboutUs";
-import { ContactUs } from "./ContactUs.jsx/ContactUS";
+import { ContactUs } from "./ContactUs.jsx/ContactUS.jsx";
 import Category from "./Products/Category";
 import Cart from "./Cart/Cart";
 
@@ -17,15 +17,14 @@ function App() {
     <div className="App">
       <Context>
         <Routes>
-        <Route path="/Register" element={<Register />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/SingleProducts/:id" element={<SingleProducts />} />
-        <Route path="/category/:categoryname" element={<Category />} />
-        <Route path="/ContactUs" element={<ContactUs />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/Cart" element={<Cart />} />
-        <Route path="/" element={<Products />} />
-      
+          <Route path="/Register" element={<Register />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/SingleProducts/:id" element={<SingleProducts />} />
+          <Route path="/category/:categoryname" element={<Category />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Cart" element={<Cart />} />
+          <Route path="/" element={<Products />} />
         </Routes>
       </Context>
     </div>
